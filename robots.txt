@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace the domain below with the domain you actually own, then submit this file in Google Search Console.
+Sitemap: https://isaicabstravels.in/sitemap.xml
