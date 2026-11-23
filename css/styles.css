@@ -388,18 +388,27 @@ body.nav-open .dock { display: none; }
 }
 .trip h3, .book-card h3 { font-size: 1.02rem; }
 
-.lede, .section-head p, .prose p, .layout p, .tamil {
+.lede, .section-head p, .prose p, .layout p {
   color: var(--muted);
   font-size: 0.9rem;
 }
 .lede { margin-top: 0.45rem; }
-.tamil {
-  margin-top: 0.65rem;
-  padding: 0.55rem 0.7rem;
+.hero-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+.hero-facts li {
   background: var(--blush);
-  border-left: 4px solid var(--copper);
-  border-radius: 0 0.7rem 0.7rem 0;
-  font-size: 0.82rem;
+  color: var(--copper-deep);
+  border-radius: 999px;
+  padding: 0.38rem 0.72rem;
+  font-size: 0.76rem;
+  font-weight: 650;
+  letter-spacing: 0.01em;
 }
 
 .hero-actions, .button-row {
@@ -939,6 +948,7 @@ textarea { min-height: 4.6rem; resize: vertical; }
 .js .hero-copy > *:nth-child(2) { animation-delay: 0.08s; }
 .js .hero-copy > *:nth-child(3) { animation-delay: 0.16s; }
 .js .hero-copy > *:nth-child(4) { animation-delay: 0.24s; }
+.js .hero-copy > *:nth-child(5) { animation-delay: 0.32s; }
 .js .hero-figure img { animation: photo-in 1s var(--ease) both; }
 .js .site-nav.is-open { animation: menu-in 0.35s var(--ease); }
 
